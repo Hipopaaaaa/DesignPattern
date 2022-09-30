@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--配置User对象的创建
+            bean标签： 用于创建对象
+                id属性：     表示这个bean标签的别名，用于识别bean标签，即创建什么对象，而不是对象名
+                class属性：  表示要创建一个什么对象，写入全类名
+    -->
+    <bean id="id01" class="com.ohj.prototype.JDK" scope="prototype"></bean>
+</beans>
